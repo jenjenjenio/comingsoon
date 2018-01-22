@@ -100,6 +100,11 @@ body {
 
 .nav-social {
     font-size:35px !important;
+    color:white;
+}
+
+.nav-social:hover {
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -107,7 +112,9 @@ body {
     float: left;
   }
   .nav-masthead {
-    float: right;
+    /*float: right;*/
+      margin-right: auto;
+  margin-left: auto;
   }
 }
 
@@ -146,7 +153,7 @@ body {
 
 @media (min-width: 768px) {
   .cover-heading {
-    font-size: 3.4rem;
+    font-size: 2.8rem;
     letter-spacing: 15px;
   }
 }
@@ -224,4 +231,13 @@ body {
   .cover-container {
     width: 1060px;
   }
+}
+
+input[type=email] {
+  border-radius: 20px;
+    padding: 0.5rem 2rem;
+}
+
+.signup {
+  color:white;
 }
